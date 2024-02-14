@@ -44,9 +44,6 @@
     <ClInclude Include="targetver.h">
       <Filter>소스 파일\99.Headers</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>소스 파일\99.Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Defines.h">
       <Filter>소스 파일\99.Headers</Filter>
     </ClInclude>
@@ -122,6 +119,9 @@
     <ClInclude Include="UIManager.h">
       <Filter>소스 파일\01.Manager</Filter>
     </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\99.Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WindowsAPI.rc">
@@ -139,9 +139,6 @@
   <ItemGroup>
     <ClCompile Include="WindowsAPI.cpp">
       <Filter>소스 파일\00.MainGame</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>소스 파일\99.Headers</Filter>
     </ClCompile>
     <ClCompile Include="SGame.cpp">
       <Filter>소스 파일\00.MainGame</Filter>
@@ -196,6 +193,9 @@
     </ClCompile>
     <ClCompile Include="UIManager.cpp">
       <Filter>소스 파일\01.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\99.Headers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
